@@ -1,0 +1,31 @@
+*** Settings ***
+Documentation  This is a testcase for partner login as admin and recruiter
+#Resource    ../Resources/PO/HiringPartner_PO/CommonFunctionality.robot
+#Resource    ../Resources/PO/HiringPartner_PO/UserDefinedkeywords.robot
+#Library  SeleniumLibrary
+#
+#*** Variables ***
+#
+#
+#*** Test Cases ***
+#Login
+#    Start testcase
+#    Login as admin
+#    Admin signout
+#    Login as recruiter
+#    Recruiter signout
+#    End testcase
+
+*** Keywords ***
+Admin signout
+    click element  xpath=//span[@class='ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image']
+    Builtin.sleep   5s
+    #click link  xpath:/html/body/div[3]/div/div/ul/li[9]/a
+    click link  //a[.//text() = 'Sign out']
+    Builtin.sleep   4s
+
+Recruiter signout
+    click element  xpath=//span[@class='ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image']
+    Builtin.sleep   5s
+    click link  //a[.//text() = 'Sign out']
+    Builtin.sleep   4s

@@ -1,0 +1,7 @@
+webdrivermanager firefox chrome --linkpath D:\robotframework\bin
+
+
+
+
+pip install webdrivermanager
+webdrivermanager firefox chrome --linkpath /usr/local/bin

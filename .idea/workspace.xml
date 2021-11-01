@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d34daf97-3fca-44f2-99ba-0e44187f0af1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Shenzyn-Test-Aut.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shenzyn-Test-Aut.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/Resources/JobseekerApp.robot" beforeDir="false" afterPath="$PROJECT_DIR$/development/shenzyn/Resources/JobseekerApp.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/Resources/PO/EmployerPO/CommonFunctionality.robot" beforeDir="false" afterPath="$PROJECT_DIR$/development/shenzyn/Resources/PO/EmployerPO/CommonFunctionality.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/Resources/PO/EmployerPO/UserDefinedKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/development/shenzyn/Resources/PO/EmployerPO/UserDefinedKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/Resources/PO/HiringPartner_PO/UserDefinedkeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/development/shenzyn/Resources/PO/HiringPartner_PO/UserDefinedkeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/Resources/PO/MainPagePO/LandingPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/development/shenzyn/Resources/PO/MainPagePO/LandingPage.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/Resources/PO/SavedProfilePO/SavedProfile.robot" beforeDir="false" afterPath="$PROJECT_DIR$/development/shenzyn/Resources/PO/SavedProfilePO/SavedProfile.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/Resources/PO/UpdateProfilePO/PersonalDetails.robot" beforeDir="false" afterPath="$PROJECT_DIR$/development/shenzyn/Resources/PO/UpdateProfilePO/PersonalDetails.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/Sharanya/PartnerUploadProfile_Event.robot" beforeDir="false" afterPath="$PROJECT_DIR$/development/shenzyn/Sharanya/PartnerUploadProfile_Event.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/Tests/Stage/01_Employer_Stage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/development/shenzyn/Tests/Stage/01_Employer_Stage.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/Tests/Stage/02_HiringPartner_Stage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/development/shenzyn/Tests/Stage/02_HiringPartner_Stage.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/Tests/Stage/03_Jobseeker_Stage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/development/shenzyn/Tests/Stage/03_Jobseeker_Stage.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/ZippedResults/log-20210301-133425.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/ZippedResults/output-20210301-133425.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/ZippedResults/report-20210301-133425.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/shenzyn/emailTrigger/consolidated_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/development/shenzyn/emailTrigger/consolidated_email.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tFPQTErNmB4nwoEkwT5yzGE7rX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/development/shenzyn-qa-automation" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn-qa-automation" />
+      <recent name="C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn\emailTrigger" />
+      <recent name="C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn-qa-automation\Resources" />
+      <recent name="C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn\Resources" />
+      <recent name="D:\python\edbank" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn\Resources" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d34daf97-3fca-44f2-99ba-0e44187f0af1" name="Default Changelist" comment="" />
+      <created>1622361848658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622361848658</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

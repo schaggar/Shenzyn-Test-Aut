@@ -1,0 +1,1216 @@
+==============================================================================
+Stage                                                                         
+==============================================================================
+Stage.01 Employer Stage :: Basic Login functionality                          
+==============================================================================
+TC1: Verify Employer Basic Login Funtionality :: Employer Login       | PASS |
+------------------------------------------------------------------------------
+TC2: Validate Update profile :: Employer Profile Update               Image upload toast successful.
+Page 1 submission successful.
+Page 2 submission successful
+| PASS |
+------------------------------------------------------------------------------
+TC3: Reset Password :: Employer Reset Password                        | PASS |
+------------------------------------------------------------------------------
+TC4: Validate Add Recruiter :: Employer Add Recruiter                 Email-Id already registered
+| PASS |
+------------------------------------------------------------------------------
+TC5: Reset Recruiter Password :: Employer Reset Recruiter password    | PASS |
+------------------------------------------------------------------------------
+TC6: Validate Login as a Admin :: Employer Admin Login                | PASS |
+------------------------------------------------------------------------------
+TC7: Validate Search Profiles :: Employer Search Profile              | PASS |
+------------------------------------------------------------------------------
+TC8: Validate Post Job :: Employer Post Job                           
+Enter Job Details loaded
+Validating toast message "Job Details".
+JD Video uploaded successfully.
+Validating toast message "Job Details".
+Succesfully saved job details.
+Candidate Details Loaded
+Validating toast message "Candidate Details".
+Succesfully saved candidate details.
+Education Details Loaded
+Validating toast message "Candidate Details".
+Succesfully saved educational details.
+Manage Response
+Manage Response - Element Found
+Manage Response - Email 1 Found
+Manage Response - Email 2 Found
+Job posted Successfully
+| PASS |
+------------------------------------------------------------------------------
+TC9: Validate Job Approve :: Employer Job Approve                     Test 1 Succeded
+Test 2 Succeded
+Test 3 Succeded
+| PASS |
+------------------------------------------------------------------------------
+TC10: Create Draft Event :: Create Draft Event                        | PASS |
+------------------------------------------------------------------------------
+TC11: Submit Draft Event :: Submit Draft Event                        | FAIL |
+Element '//div[16]/div[1]/div[1]/span[1]/button[1]' did not appear in 2 minutes.
+------------------------------------------------------------------------------
+TC11.1: Submit Event Temporary :: Create Draft Event                  | FAIL |
+Element '//div[16]/div[1]/div[1]/span[1]/button[1]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC12: Validate Event Approve :: Employer Approve Event                | FAIL |
+Element with locator '//span/i[@aria-label='icon: check-square-o']' not found.
+------------------------------------------------------------------------------
+Stage.01 Employer Stage :: Basic Login functionality                  | FAIL |
+13 tests, 10 passed, 3 failed
+==============================================================================
+Stage.02 HiringPartner Stage                                                  
+==============================================================================
+TC2: Login Admin Account :: Testcase to validate Login as Admin an... Admin Account Validated and Logged Out Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC2.1: Login Recruiter Account :: Testcase to validate Login as Ad... Recruiter Account Validated and Logged Out Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC3: Subscription :: Testcase to verify Subscription                  reached here.....
+Buy button located.
+| PASS |
+------------------------------------------------------------------------------
+TC4: Shortlist jobs :: Testcase to check if user can Shortlist jobs   | FAIL |
+Element '//html/body/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div[1]/div/ul/div[2]/div/div/div[1]/img' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC5: Enroll event :: Testcase to check if user can Enroll for even... Events Enrolled Successfully
+| PASS |
+------------------------------------------------------------------------------
+TC6: UploadProfile for an event :: Testcase to check if user can u... | FAIL |
+Element '//p[contains(text(),'AUT 7')]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC7: UploadProfile for an job :: Testcase to check if user can upl... profile uploaded for job successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC8: Admin See Profiles (Job) :: Testcase to check if Admin can se... Job profiles are available and visible to admin
+| PASS |
+------------------------------------------------------------------------------
+TC8.1: Admin See Profiles (Event) :: Testcase to check if Admin ca... reached 1 ....
+reached 2 ....
+Event profiles are available and visible to admin
+| PASS |
+------------------------------------------------------------------------------
+TC9: Add recruiter :: Testcase to check if Partner admin can add R... Recruiter added successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC10: Password reset and email verfication when a recruiter is add... | PASS |
+------------------------------------------------------------------------------
+TC11: Password Reset :: Testcase to check reset password              Reset Password instructions sent successfully to email id Sharanya_test@hotmail.com
+| PASS |
+------------------------------------------------------------------------------
+TC12: View reports as admin :: Testcase to check if Partner admin ... | PASS |
+------------------------------------------------------------------------------
+TC13: Upload profile for event as recruiter :: Testcase to check i... uploading resume test
+resume upload successful
+profile uploaded for event successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC14: Upload profile for job as recruiter :: Testcase to check if ... profile uploaded for job successfully.
+| PASS |
+------------------------------------------------------------------------------
+Stage.02 HiringPartner Stage                                          | FAIL |
+15 tests, 13 passed, 2 failed
+==============================================================================
+Stage.03 Jobseeker Stage :: This test suite will contain the test cases rel...
+==============================================================================
+TC1: Validate Landing Page :: This test will verify if the objects... | PASS |
+------------------------------------------------------------------------------
+TC2: Validate Login Functionality :: This test will verify if the ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC3: Validate JobSeekerPage :: This test will verify if all the ob... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.1: Validate Updates on Profile - Personal Details :: This test... logged in successfully
+| FAIL |
+StaleElementReferenceException: Message: The element reference of <span> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+------------------------------------------------------------------------------
+TC4.2: Validate Updates on Profile - Educational Details :: This t... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.3: Validate Updates on Profile - Employment Details :: This te... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.4: Validate Updates on Profile - Project Details :: This test ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.5: Validate Updates on Profile - Skill Details :: This test wi... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.6: Validate Updates on Profile - Update Preference Details :: ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC5: Search by Skill and Save job :: This test will verify if user... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC6: Apply Saved Job :: This test will verify if user is able to a... logged in successfully
+| FAIL |
+Element '//span[contains(text(),'Job already applied')]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC8: Apply for Events :: This test will verify if user is able the... logged in successfully
+Profile Already Submitted
+| PASS |
+------------------------------------------------------------------------------
+TC9: Search and Select Mentor :: This test will verify if user is ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC 10: Jobseeker Password Reset :: This test will verify if user i... 
+A password reset email has been sent, Check your mail!
+| PASS |
+------------------------------------------------------------------------------
+TC 12: Vaidated Saved Profile - Personal Details :: This test will... logged in successfully
+Navigated Successfully to Saved Profile
+Page Objects Validated Successfully
+| FAIL |
+Element with locator '//h5[contains(text(),'Pune, Maharashtra')]' not found.
+------------------------------------------------------------------------------
+TC 13: Vaidated Saved Profile - Education :: This test will verify... logged in successfully
+Navigated Successfully to Saved Profile
+Navigated to Saved Education Page
+Educational Saved Details Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 14: Vaidated Saved Profile - Employment :: This test will verif... logged in successfully
+Navigated Successfully to Saved Profile
+Moved to Employment Section
+| FAIL |
+Element with locator '//p[contains(text(),'10 k')]' not found.
+------------------------------------------------------------------------------
+TC 15: Vaidated Saved Profile - Projects :: This test will verify ... logged in successfully
+Navigated Successfully to Saved Profile
+Project Details Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 16: Validated Saved Profile - Preferences :: This test will ver... logged in successfully
+Navigated Successfully to Saved Profile
+Preferences Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 17: Login (Incorrect email format) :: This test will verify if ... 
+"Invalid input for emailId, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 18: Login (User not registered) :: This test will verify if the... 
+"User not found,Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 20: Login (No email ID) :: This test will verify if the applica... 
+"Please input your emailId!, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 21: Login (No Password) :: This test will verify if the applica... 
+"Please input your Password!, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 23: Account Locked (Failure 1) :: Account Locked Attempt 1         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 24: Account Locked (Failure 2) :: Account Locked Attempt 2         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 25: Account Locked (Failure 3) :: Account Locked Attempt 3         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 30: Validate Gender Detection (Male) :: This test will validate... logged in successfully
+
+As expected, Male Detected, got the message - Upload failed.Gender & Age validation failed.Please upload a proper photo.
+| PASS |
+------------------------------------------------------------------------------
+TC 31: Validate Gender Detection (Female) :: This test will valida... logged in successfully
+
+As expected, female Detected, got the message - Uploaded successfully.Pass, Female Age Above 18..
+| PASS |
+------------------------------------------------------------------------------
+Stage.03 Jobseeker Stage :: This test suite will contain the test ... | FAIL |
+28 tests, 24 passed, 4 failed
+==============================================================================
+Stage                                                                 | FAIL |
+56 tests, 47 passed, 9 failed
+==============================================================================
+Output:  /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/output-20210727-140501.xml
+Log:     /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/log-20210727-140501.html
+Report:  /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/report-20210727-140501.html
+==============================================================================
+Stage                                                                         
+==============================================================================
+Stage.01 Employer Stage :: Basic Login functionality                          
+==============================================================================
+TC1: Verify Employer Basic Login Funtionality :: Employer Login       | PASS |
+------------------------------------------------------------------------------
+TC2: Validate Update profile :: Employer Profile Update               Image upload toast successful.
+Page 1 submission successful.
+Page 2 submission successful
+| PASS |
+------------------------------------------------------------------------------
+TC3: Reset Password :: Employer Reset Password                        | PASS |
+------------------------------------------------------------------------------
+TC4: Validate Add Recruiter :: Employer Add Recruiter                 Email-Id already registered
+| PASS |
+------------------------------------------------------------------------------
+TC5: Reset Recruiter Password :: Employer Reset Recruiter password    | PASS |
+------------------------------------------------------------------------------
+TC6: Validate Login as a Admin :: Employer Admin Login                | PASS |
+------------------------------------------------------------------------------
+TC7: Validate Search Profiles :: Employer Search Profile              | PASS |
+------------------------------------------------------------------------------
+TC8: Validate Post Job :: Employer Post Job                           
+Enter Job Details loaded
+Validating toast message "Job Details".
+JD Video uploaded successfully.
+Validating toast message "Job Details".
+Succesfully saved job details.
+Candidate Details Loaded
+Validating toast message "Candidate Details".
+Succesfully saved candidate details.
+Education Details Loaded
+Validating toast message "Candidate Details".
+Succesfully saved educational details.
+Manage Response
+Manage Response - Element Found
+Manage Response - Email 1 Found
+Manage Response - Email 2 Found
+Job posted Successfully
+| PASS |
+------------------------------------------------------------------------------
+TC9: Validate Job Approve :: Employer Job Approve                     Test 1 Succeded
+Test 2 Succeded
+Test 3 Succeded
+| PASS |
+------------------------------------------------------------------------------
+TC10: Create Draft Event :: Create Draft Event                        | PASS |
+------------------------------------------------------------------------------
+TC11: Submit Draft Event :: Submit Draft Event                        | FAIL |
+Element '//div[16]/div[1]/div[1]/span[1]/button[1]' did not appear in 2 minutes.
+------------------------------------------------------------------------------
+TC11.1: Submit Event Temporary :: Create Draft Event                  | FAIL |
+Element '//div[16]/div[1]/div[1]/span[1]/button[1]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC12: Validate Event Approve :: Employer Approve Event                | FAIL |
+Element with locator '//span/i[@aria-label='icon: check-square-o']' not found.
+------------------------------------------------------------------------------
+Stage.01 Employer Stage :: Basic Login functionality                  | FAIL |
+13 tests, 10 passed, 3 failed
+==============================================================================
+Stage.02 HiringPartner Stage                                                  
+==============================================================================
+TC2: Login Admin Account :: Testcase to validate Login as Admin an... Admin Account Validated and Logged Out Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC2.1: Login Recruiter Account :: Testcase to validate Login as Ad... Recruiter Account Validated and Logged Out Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC3: Subscription :: Testcase to verify Subscription                  reached here.....
+Buy button located.
+| PASS |
+------------------------------------------------------------------------------
+TC4: Shortlist jobs :: Testcase to check if user can Shortlist jobs   | FAIL |
+Element '//html/body/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div[1]/div/ul/div[2]/div/div/div[1]/img' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC5: Enroll event :: Testcase to check if user can Enroll for even... Events Enrolled Successfully
+| PASS |
+------------------------------------------------------------------------------
+TC6: UploadProfile for an event :: Testcase to check if user can u... | FAIL |
+Element '//p[contains(text(),'AUT 7')]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC7: UploadProfile for an job :: Testcase to check if user can upl... profile uploaded for job successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC8: Admin See Profiles (Job) :: Testcase to check if Admin can se... Job profiles are available and visible to admin
+| PASS |
+------------------------------------------------------------------------------
+TC8.1: Admin See Profiles (Event) :: Testcase to check if Admin ca... reached 1 ....
+reached 2 ....
+Event profiles are available and visible to admin
+| PASS |
+------------------------------------------------------------------------------
+TC9: Add recruiter :: Testcase to check if Partner admin can add R... Recruiter added successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC10: Password reset and email verfication when a recruiter is add... | PASS |
+------------------------------------------------------------------------------
+TC11: Password Reset :: Testcase to check reset password              Reset Password instructions sent successfully to email id Sharanya_test@hotmail.com
+| PASS |
+------------------------------------------------------------------------------
+TC12: View reports as admin :: Testcase to check if Partner admin ... | PASS |
+------------------------------------------------------------------------------
+TC13: Upload profile for event as recruiter :: Testcase to check i... uploading resume test
+resume upload successful
+profile uploaded for event successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC14: Upload profile for job as recruiter :: Testcase to check if ... profile uploaded for job successfully.
+| PASS |
+------------------------------------------------------------------------------
+Stage.02 HiringPartner Stage                                          | FAIL |
+15 tests, 13 passed, 2 failed
+==============================================================================
+Stage.03 Jobseeker Stage :: This test suite will contain the test cases rel...
+==============================================================================
+TC1: Validate Landing Page :: This test will verify if the objects... | PASS |
+------------------------------------------------------------------------------
+TC2: Validate Login Functionality :: This test will verify if the ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC3: Validate JobSeekerPage :: This test will verify if all the ob... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.1: Validate Updates on Profile - Personal Details :: This test... logged in successfully
+| FAIL |
+StaleElementReferenceException: Message: The element reference of <span> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+------------------------------------------------------------------------------
+TC4.2: Validate Updates on Profile - Educational Details :: This t... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.3: Validate Updates on Profile - Employment Details :: This te... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.4: Validate Updates on Profile - Project Details :: This test ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.5: Validate Updates on Profile - Skill Details :: This test wi... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.6: Validate Updates on Profile - Update Preference Details :: ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC5: Search by Skill and Save job :: This test will verify if user... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC6: Apply Saved Job :: This test will verify if user is able to a... logged in successfully
+| FAIL |
+Element '//span[contains(text(),'Job already applied')]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC8: Apply for Events :: This test will verify if user is able the... logged in successfully
+Profile Already Submitted
+| PASS |
+------------------------------------------------------------------------------
+TC9: Search and Select Mentor :: This test will verify if user is ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC 10: Jobseeker Password Reset :: This test will verify if user i... 
+A password reset email has been sent, Check your mail!
+| PASS |
+------------------------------------------------------------------------------
+TC 12: Vaidated Saved Profile - Personal Details :: This test will... logged in successfully
+Navigated Successfully to Saved Profile
+Page Objects Validated Successfully
+| FAIL |
+Element with locator '//h5[contains(text(),'Pune, Maharashtra')]' not found.
+------------------------------------------------------------------------------
+TC 13: Vaidated Saved Profile - Education :: This test will verify... logged in successfully
+Navigated Successfully to Saved Profile
+Navigated to Saved Education Page
+Educational Saved Details Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 14: Vaidated Saved Profile - Employment :: This test will verif... logged in successfully
+Navigated Successfully to Saved Profile
+Moved to Employment Section
+| FAIL |
+Element with locator '//p[contains(text(),'10 k')]' not found.
+------------------------------------------------------------------------------
+TC 15: Vaidated Saved Profile - Projects :: This test will verify ... logged in successfully
+Navigated Successfully to Saved Profile
+Project Details Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 16: Validated Saved Profile - Preferences :: This test will ver... logged in successfully
+Navigated Successfully to Saved Profile
+Preferences Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 17: Login (Incorrect email format) :: This test will verify if ... 
+"Invalid input for emailId, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 18: Login (User not registered) :: This test will verify if the... 
+"User not found,Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 20: Login (No email ID) :: This test will verify if the applica... 
+"Please input your emailId!, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 21: Login (No Password) :: This test will verify if the applica... 
+"Please input your Password!, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 23: Account Locked (Failure 1) :: Account Locked Attempt 1         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 24: Account Locked (Failure 2) :: Account Locked Attempt 2         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 25: Account Locked (Failure 3) :: Account Locked Attempt 3         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 30: Validate Gender Detection (Male) :: This test will validate... logged in successfully
+
+As expected, Male Detected, got the message - Upload failed.Gender & Age validation failed.Please upload a proper photo.
+| PASS |
+------------------------------------------------------------------------------
+TC 31: Validate Gender Detection (Female) :: This test will valida... logged in successfully
+
+As expected, female Detected, got the message - Uploaded successfully.Pass, Female Age Above 18..
+| PASS |
+------------------------------------------------------------------------------
+Stage.03 Jobseeker Stage :: This test suite will contain the test ... | FAIL |
+28 tests, 24 passed, 4 failed
+==============================================================================
+Stage                                                                 | FAIL |
+56 tests, 47 passed, 9 failed
+==============================================================================
+Output:  /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/output-20210727-160501.xml
+Log:     /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/log-20210727-160501.html
+Report:  /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/report-20210727-160501.html
+==============================================================================
+Stage                                                                         
+==============================================================================
+Stage.01 Employer Stage :: Basic Login functionality                          
+==============================================================================
+TC1: Verify Employer Basic Login Funtionality :: Employer Login       | FAIL |
+Setup failed:
+WebDriverException: Message: Reached error page: about:neterror?e=connectionFailure&u=http%3A//employer.stage.shenzyn.com/%23/user/login&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20employer.stage.shenzyn.com.
+------------------------------------------------------------------------------
+TC2: Validate Update profile :: Employer Profile Update               Image upload toast successful.
+Page 1 submission successful.
+Page 2 submission successful
+| PASS |
+------------------------------------------------------------------------------
+TC3: Reset Password :: Employer Reset Password                        | PASS |
+------------------------------------------------------------------------------
+TC4: Validate Add Recruiter :: Employer Add Recruiter                 Email-Id already registered
+| PASS |
+------------------------------------------------------------------------------
+TC5: Reset Recruiter Password :: Employer Reset Recruiter password    | PASS |
+------------------------------------------------------------------------------
+TC6: Validate Login as a Admin :: Employer Admin Login                | PASS |
+------------------------------------------------------------------------------
+TC7: Validate Search Profiles :: Employer Search Profile              | PASS |
+------------------------------------------------------------------------------
+TC8: Validate Post Job :: Employer Post Job                           
+Enter Job Details loaded
+Validating toast message "Job Details".
+JD Video uploaded successfully.
+Validating toast message "Job Details".
+Succesfully saved job details.
+Candidate Details Loaded
+Validating toast message "Candidate Details".
+Succesfully saved candidate details.
+Education Details Loaded
+Validating toast message "Candidate Details".
+Succesfully saved educational details.
+Manage Response
+Manage Response - Element Found
+Manage Response - Email 1 Found
+Manage Response - Email 2 Found
+Job posted Successfully
+| PASS |
+------------------------------------------------------------------------------
+TC9: Validate Job Approve :: Employer Job Approve                     Test 1 Succeded
+Test 2 Succeded
+Test 3 Succeded
+| PASS |
+------------------------------------------------------------------------------
+TC10: Create Draft Event :: Create Draft Event                        | PASS |
+------------------------------------------------------------------------------
+TC11: Submit Draft Event :: Submit Draft Event                        | FAIL |
+Element '//div[16]/div[1]/div[1]/span[1]/button[1]' did not appear in 2 minutes.
+------------------------------------------------------------------------------
+TC11.1: Submit Event Temporary :: Create Draft Event                  | FAIL |
+Element '//div[16]/div[1]/div[1]/span[1]/button[1]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC12: Validate Event Approve :: Employer Approve Event                | FAIL |
+Element with locator '//span/i[@aria-label='icon: check-square-o']' not found.
+------------------------------------------------------------------------------
+Stage.01 Employer Stage :: Basic Login functionality                  | FAIL |
+13 tests, 9 passed, 4 failed
+==============================================================================
+Stage.02 HiringPartner Stage                                                  
+==============================================================================
+TC2: Login Admin Account :: Testcase to validate Login as Admin an... Admin Account Validated and Logged Out Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC2.1: Login Recruiter Account :: Testcase to validate Login as Ad... Recruiter Account Validated and Logged Out Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC3: Subscription :: Testcase to verify Subscription                  reached here.....
+Buy button located.
+| PASS |
+------------------------------------------------------------------------------
+TC4: Shortlist jobs :: Testcase to check if user can Shortlist jobs   | FAIL |
+Element '//html/body/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div[1]/div/ul/div[2]/div/div/div[1]/img' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC5: Enroll event :: Testcase to check if user can Enroll for even... | FAIL |
+Element '//span[contains(text(),'Events Enrolled Successfully')]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC6: UploadProfile for an event :: Testcase to check if user can u... | FAIL |
+Element '//p[contains(text(),'AUT 7')]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC7: UploadProfile for an job :: Testcase to check if user can upl... profile uploaded for job successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC8: Admin See Profiles (Job) :: Testcase to check if Admin can se... Job profiles are available and visible to admin
+| PASS |
+------------------------------------------------------------------------------
+TC8.1: Admin See Profiles (Event) :: Testcase to check if Admin ca... reached 1 ....
+reached 2 ....
+Event profiles are available and visible to admin
+| PASS |
+------------------------------------------------------------------------------
+TC9: Add recruiter :: Testcase to check if Partner admin can add R... Recruiter added successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC10: Password reset and email verfication when a recruiter is add... | PASS |
+------------------------------------------------------------------------------
+TC11: Password Reset :: Testcase to check reset password              Reset Password instructions sent successfully to email id Sharanya_test@hotmail.com
+| PASS |
+------------------------------------------------------------------------------
+TC12: View reports as admin :: Testcase to check if Partner admin ... | PASS |
+------------------------------------------------------------------------------
+TC13: Upload profile for event as recruiter :: Testcase to check i... uploading resume test
+resume upload successful
+profile uploaded for event successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC14: Upload profile for job as recruiter :: Testcase to check if ... profile uploaded for job successfully.
+| PASS |
+------------------------------------------------------------------------------
+Stage.02 HiringPartner Stage                                          | FAIL |
+15 tests, 12 passed, 3 failed
+==============================================================================
+Stage.03 Jobseeker Stage :: This test suite will contain the test cases rel...
+==============================================================================
+TC1: Validate Landing Page :: This test will verify if the objects... | PASS |
+------------------------------------------------------------------------------
+TC2: Validate Login Functionality :: This test will verify if the ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC3: Validate JobSeekerPage :: This test will verify if all the ob... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.1: Validate Updates on Profile - Personal Details :: This test... logged in successfully
+| FAIL |
+StaleElementReferenceException: Message: The element reference of <span> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+------------------------------------------------------------------------------
+TC4.2: Validate Updates on Profile - Educational Details :: This t... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.3: Validate Updates on Profile - Employment Details :: This te... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.4: Validate Updates on Profile - Project Details :: This test ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.5: Validate Updates on Profile - Skill Details :: This test wi... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.6: Validate Updates on Profile - Update Preference Details :: ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC5: Search by Skill and Save job :: This test will verify if user... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC6: Apply Saved Job :: This test will verify if user is able to a... logged in successfully
+| FAIL |
+Element '//span[contains(text(),'Job already applied')]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC8: Apply for Events :: This test will verify if user is able the... logged in successfully
+Profile Already Submitted
+| PASS |
+------------------------------------------------------------------------------
+TC9: Search and Select Mentor :: This test will verify if user is ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC 10: Jobseeker Password Reset :: This test will verify if user i... 
+A password reset email has been sent, Check your mail!
+| PASS |
+------------------------------------------------------------------------------
+TC 12: Vaidated Saved Profile - Personal Details :: This test will... logged in successfully
+Navigated Successfully to Saved Profile
+Page Objects Validated Successfully
+| FAIL |
+Element with locator '//h5[contains(text(),'Pune, Maharashtra')]' not found.
+------------------------------------------------------------------------------
+TC 13: Vaidated Saved Profile - Education :: This test will verify... logged in successfully
+Navigated Successfully to Saved Profile
+Navigated to Saved Education Page
+Educational Saved Details Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 14: Vaidated Saved Profile - Employment :: This test will verif... logged in successfully
+Navigated Successfully to Saved Profile
+Moved to Employment Section
+| FAIL |
+Element with locator '//p[contains(text(),'10 k')]' not found.
+------------------------------------------------------------------------------
+TC 15: Vaidated Saved Profile - Projects :: This test will verify ... logged in successfully
+Navigated Successfully to Saved Profile
+Project Details Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 16: Validated Saved Profile - Preferences :: This test will ver... logged in successfully
+Navigated Successfully to Saved Profile
+Preferences Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 17: Login (Incorrect email format) :: This test will verify if ... 
+"Invalid input for emailId, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 18: Login (User not registered) :: This test will verify if the... 
+"User not found,Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 20: Login (No email ID) :: This test will verify if the applica... 
+"Please input your emailId!, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 21: Login (No Password) :: This test will verify if the applica... 
+"Please input your Password!, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 23: Account Locked (Failure 1) :: Account Locked Attempt 1         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 24: Account Locked (Failure 2) :: Account Locked Attempt 2         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 25: Account Locked (Failure 3) :: Account Locked Attempt 3         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 30: Validate Gender Detection (Male) :: This test will validate... logged in successfully
+
+As expected, Male Detected, got the message - Upload failed.Gender & Age validation failed.Please upload a proper photo.
+| PASS |
+------------------------------------------------------------------------------
+TC 31: Validate Gender Detection (Female) :: This test will valida... logged in successfully
+
+As expected, female Detected, got the message - Uploaded successfully.Pass, Female Age Above 18..
+| PASS |
+------------------------------------------------------------------------------
+Stage.03 Jobseeker Stage :: This test suite will contain the test ... | FAIL |
+28 tests, 24 passed, 4 failed
+==============================================================================
+Stage                                                                 | FAIL |
+56 tests, 45 passed, 11 failed
+==============================================================================
+Output:  /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/output-20210727-180501.xml
+Log:     /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/log-20210727-180501.html
+Report:  /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/report-20210727-180501.html
+==============================================================================
+Stage                                                                         
+==============================================================================
+Stage.01 Employer Stage :: Basic Login functionality                          
+==============================================================================
+TC1: Verify Employer Basic Login Funtionality :: Employer Login       | FAIL |
+Setup failed:
+WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=http%3A//employer.stage.shenzyn.com/%23/user/login&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20employer.stage.shenzyn.com.
+------------------------------------------------------------------------------
+TC2: Validate Update profile :: Employer Profile Update               Image upload toast successful.
+Page 1 submission successful.
+Page 2 submission successful
+| PASS |
+------------------------------------------------------------------------------
+TC3: Reset Password :: Employer Reset Password                        | PASS |
+------------------------------------------------------------------------------
+TC4: Validate Add Recruiter :: Employer Add Recruiter                 Email-Id already registered
+| PASS |
+------------------------------------------------------------------------------
+TC5: Reset Recruiter Password :: Employer Reset Recruiter password    | PASS |
+------------------------------------------------------------------------------
+TC6: Validate Login as a Admin :: Employer Admin Login                | PASS |
+------------------------------------------------------------------------------
+TC7: Validate Search Profiles :: Employer Search Profile              | PASS |
+------------------------------------------------------------------------------
+TC8: Validate Post Job :: Employer Post Job                           
+Enter Job Details loaded
+Validating toast message "Job Details".
+JD Video uploaded successfully.
+Validating toast message "Job Details".
+Succesfully saved job details.
+Candidate Details Loaded
+Validating toast message "Candidate Details".
+Succesfully saved candidate details.
+Education Details Loaded
+Validating toast message "Candidate Details".
+Succesfully saved educational details.
+Manage Response
+Manage Response - Element Found
+Manage Response - Email 1 Found
+Manage Response - Email 2 Found
+Job posted Successfully
+| PASS |
+------------------------------------------------------------------------------
+TC9: Validate Job Approve :: Employer Job Approve                     Test 1 Succeded
+Test 2 Succeded
+Test 3 Succeded
+| PASS |
+------------------------------------------------------------------------------
+TC10: Create Draft Event :: Create Draft Event                        | PASS |
+------------------------------------------------------------------------------
+TC11: Submit Draft Event :: Submit Draft Event                        | PASS |
+------------------------------------------------------------------------------
+TC11.1: Submit Event Temporary :: Create Draft Event                  
+Event posted successfully
+| PASS |
+------------------------------------------------------------------------------
+TC12: Validate Event Approve :: Employer Approve Event                | PASS |
+------------------------------------------------------------------------------
+Stage.01 Employer Stage :: Basic Login functionality                  | FAIL |
+13 tests, 12 passed, 1 failed
+==============================================================================
+Stage.02 HiringPartner Stage                                                  
+==============================================================================
+TC2: Login Admin Account :: Testcase to validate Login as Admin an... Admin Account Validated and Logged Out Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC2.1: Login Recruiter Account :: Testcase to validate Login as Ad... Recruiter Account Validated and Logged Out Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC3: Subscription :: Testcase to verify Subscription                  reached here.....
+Buy button located.
+| PASS |
+------------------------------------------------------------------------------
+TC4: Shortlist jobs :: Testcase to check if user can Shortlist jobs   Job shortlisted successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC5: Enroll event :: Testcase to check if user can Enroll for even... | FAIL |
+Element '//span[contains(text(),'Events Enrolled Successfully')]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC6: UploadProfile for an event :: Testcase to check if user can u... | FAIL |
+Element '//p[contains(text(),'AUT 7')]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC7: UploadProfile for an job :: Testcase to check if user can upl... profile uploaded for job successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC8: Admin See Profiles (Job) :: Testcase to check if Admin can se... Job profiles are available and visible to admin
+| PASS |
+------------------------------------------------------------------------------
+TC8.1: Admin See Profiles (Event) :: Testcase to check if Admin ca... reached 1 ....
+reached 2 ....
+Event profiles are available and visible to admin
+| PASS |
+------------------------------------------------------------------------------
+TC9: Add recruiter :: Testcase to check if Partner admin can add R... Recruiter added successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC10: Password reset and email verfication when a recruiter is add... | PASS |
+------------------------------------------------------------------------------
+TC11: Password Reset :: Testcase to check reset password              Reset Password instructions sent successfully to email id Sharanya_test@hotmail.com
+| PASS |
+------------------------------------------------------------------------------
+TC12: View reports as admin :: Testcase to check if Partner admin ... | PASS |
+------------------------------------------------------------------------------
+TC13: Upload profile for event as recruiter :: Testcase to check i... uploading resume test
+resume upload successful
+profile uploaded for event successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC14: Upload profile for job as recruiter :: Testcase to check if ... profile uploaded for job successfully.
+| PASS |
+------------------------------------------------------------------------------
+Stage.02 HiringPartner Stage                                          | FAIL |
+15 tests, 13 passed, 2 failed
+==============================================================================
+Stage.03 Jobseeker Stage :: This test suite will contain the test cases rel...
+==============================================================================
+TC1: Validate Landing Page :: This test will verify if the objects... | PASS |
+------------------------------------------------------------------------------
+TC2: Validate Login Functionality :: This test will verify if the ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC3: Validate JobSeekerPage :: This test will verify if all the ob... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.1: Validate Updates on Profile - Personal Details :: This test... logged in successfully
+| FAIL |
+StaleElementReferenceException: Message: The element reference of <span> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+------------------------------------------------------------------------------
+TC4.2: Validate Updates on Profile - Educational Details :: This t... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.3: Validate Updates on Profile - Employment Details :: This te... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.4: Validate Updates on Profile - Project Details :: This test ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.5: Validate Updates on Profile - Skill Details :: This test wi... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.6: Validate Updates on Profile - Update Preference Details :: ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC5: Search by Skill and Save job :: This test will verify if user... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC6: Apply Saved Job :: This test will verify if user is able to a... logged in successfully
+| FAIL |
+Element '//span[contains(text(),'Job already applied')]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC8: Apply for Events :: This test will verify if user is able the... logged in successfully
+| FAIL |
+Element '//li[1]/ul[1]/li[1]/a[1]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC9: Search and Select Mentor :: This test will verify if user is ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC 10: Jobseeker Password Reset :: This test will verify if user i... 
+A password reset email has been sent, Check your mail!
+| PASS |
+------------------------------------------------------------------------------
+TC 12: Vaidated Saved Profile - Personal Details :: This test will... logged in successfully
+Navigated Successfully to Saved Profile
+Page Objects Validated Successfully
+| FAIL |
+Element with locator '//h5[contains(text(),'Pune, Maharashtra')]' not found.
+------------------------------------------------------------------------------
+TC 13: Vaidated Saved Profile - Education :: This test will verify... logged in successfully
+Navigated Successfully to Saved Profile
+Navigated to Saved Education Page
+Educational Saved Details Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 14: Vaidated Saved Profile - Employment :: This test will verif... logged in successfully
+Navigated Successfully to Saved Profile
+Moved to Employment Section
+| FAIL |
+Element with locator '//p[contains(text(),'10 k')]' not found.
+------------------------------------------------------------------------------
+TC 15: Vaidated Saved Profile - Projects :: This test will verify ... logged in successfully
+Navigated Successfully to Saved Profile
+Project Details Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 16: Validated Saved Profile - Preferences :: This test will ver... logged in successfully
+Navigated Successfully to Saved Profile
+Preferences Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 17: Login (Incorrect email format) :: This test will verify if ... 
+"Invalid input for emailId, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 18: Login (User not registered) :: This test will verify if the... 
+"User not found,Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 20: Login (No email ID) :: This test will verify if the applica... 
+"Please input your emailId!, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 21: Login (No Password) :: This test will verify if the applica... 
+"Please input your Password!, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 23: Account Locked (Failure 1) :: Account Locked Attempt 1         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 24: Account Locked (Failure 2) :: Account Locked Attempt 2         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 25: Account Locked (Failure 3) :: Account Locked Attempt 3         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 30: Validate Gender Detection (Male) :: This test will validate... logged in successfully
+
+As expected, Male Detected, got the message - Upload failed.Gender & Age validation failed.Please upload a proper photo.
+| PASS |
+------------------------------------------------------------------------------
+TC 31: Validate Gender Detection (Female) :: This test will valida... logged in successfully
+
+As expected, female Detected, got the message - Uploaded successfully.Pass, Female Age Above 18..
+| PASS |
+------------------------------------------------------------------------------
+Stage.03 Jobseeker Stage :: This test suite will contain the test ... | FAIL |
+28 tests, 23 passed, 5 failed
+==============================================================================
+Stage                                                                 | FAIL |
+56 tests, 48 passed, 8 failed
+==============================================================================
+Output:  /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/output-20210731-120501.xml
+Log:     /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/log-20210731-120501.html
+Report:  /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/report-20210731-120501.html
+==============================================================================
+Stage                                                                         
+==============================================================================
+Stage.01 Employer Stage :: Basic Login functionality                          
+==============================================================================
+TC1: Verify Employer Basic Login Funtionality :: Employer Login       | PASS |
+------------------------------------------------------------------------------
+TC2: Validate Update profile :: Employer Profile Update               Image upload toast successful.
+Page 1 submission successful.
+Page 2 submission successful
+| PASS |
+------------------------------------------------------------------------------
+TC3: Reset Password :: Employer Reset Password                        | PASS |
+------------------------------------------------------------------------------
+TC4: Validate Add Recruiter :: Employer Add Recruiter                 Email-Id already registered
+| PASS |
+------------------------------------------------------------------------------
+TC5: Reset Recruiter Password :: Employer Reset Recruiter password    | PASS |
+------------------------------------------------------------------------------
+TC6: Validate Login as a Admin :: Employer Admin Login                | PASS |
+------------------------------------------------------------------------------
+TC7: Validate Search Profiles :: Employer Search Profile              | PASS |
+------------------------------------------------------------------------------
+TC8: Validate Post Job :: Employer Post Job                           
+Enter Job Details loaded
+Validating toast message "Job Details".
+JD Video uploaded successfully.
+Validating toast message "Job Details".
+Succesfully saved job details.
+Candidate Details Loaded
+Validating toast message "Candidate Details".
+Succesfully saved candidate details.
+Education Details Loaded
+Validating toast message "Candidate Details".
+Succesfully saved educational details.
+Manage Response
+Manage Response - Element Found
+Manage Response - Email 1 Found
+Manage Response - Email 2 Found
+Job posted Successfully
+| PASS |
+------------------------------------------------------------------------------
+TC9: Validate Job Approve :: Employer Job Approve                     Test 1 Succeded
+Test 2 Succeded
+Test 3 Succeded
+| PASS |
+------------------------------------------------------------------------------
+TC10: Create Draft Event :: Create Draft Event                        | PASS |
+------------------------------------------------------------------------------
+TC11: Submit Draft Event :: Submit Draft Event                        | PASS |
+------------------------------------------------------------------------------
+TC11.1: Submit Event Temporary :: Create Draft Event                  
+Event posted successfully
+| PASS |
+------------------------------------------------------------------------------
+TC12: Validate Event Approve :: Employer Approve Event                | PASS |
+------------------------------------------------------------------------------
+Stage.01 Employer Stage :: Basic Login functionality                  | PASS |
+13 tests, 13 passed, 0 failed
+==============================================================================
+Stage.02 HiringPartner Stage                                                  
+==============================================================================
+TC2: Login Admin Account :: Testcase to validate Login as Admin an... Admin Account Validated and Logged Out Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC2.1: Login Recruiter Account :: Testcase to validate Login as Ad... Recruiter Account Validated and Logged Out Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC3: Subscription :: Testcase to verify Subscription                  reached here.....
+Buy button located.
+| PASS |
+------------------------------------------------------------------------------
+TC4: Shortlist jobs :: Testcase to check if user can Shortlist jobs   Job shortlisted successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC5: Enroll event :: Testcase to check if user can Enroll for even... | FAIL |
+Element '//span[contains(text(),'Events Enrolled Successfully')]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC6: UploadProfile for an event :: Testcase to check if user can u... element found....
+element clicked...
+uploading resume test
+resume upload successful
+profile uploaded for event successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC7: UploadProfile for an job :: Testcase to check if user can upl... profile uploaded for job successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC8: Admin See Profiles (Job) :: Testcase to check if Admin can se... Job profiles are available and visible to admin
+| PASS |
+------------------------------------------------------------------------------
+TC8.1: Admin See Profiles (Event) :: Testcase to check if Admin ca... reached 1 ....
+reached 2 ....
+Event profiles are available and visible to admin
+| PASS |
+------------------------------------------------------------------------------
+TC9: Add recruiter :: Testcase to check if Partner admin can add R... Recruiter added successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC10: Password reset and email verfication when a recruiter is add... | PASS |
+------------------------------------------------------------------------------
+TC11: Password Reset :: Testcase to check reset password              Reset Password instructions sent successfully to email id Sharanya_test@hotmail.com
+| PASS |
+------------------------------------------------------------------------------
+TC12: View reports as admin :: Testcase to check if Partner admin ... | PASS |
+------------------------------------------------------------------------------
+TC13: Upload profile for event as recruiter :: Testcase to check i... uploading resume test
+resume upload successful
+profile uploaded for event successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC14: Upload profile for job as recruiter :: Testcase to check if ... profile uploaded for job successfully.
+| PASS |
+------------------------------------------------------------------------------
+Stage.02 HiringPartner Stage                                          | FAIL |
+15 tests, 14 passed, 1 failed
+==============================================================================
+Stage.03 Jobseeker Stage :: This test suite will contain the test cases rel...
+==============================================================================
+TC1: Validate Landing Page :: This test will verify if the objects... | PASS |
+------------------------------------------------------------------------------
+TC2: Validate Login Functionality :: This test will verify if the ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC3: Validate JobSeekerPage :: This test will verify if all the ob... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.1: Validate Updates on Profile - Personal Details :: This test... logged in successfully
+| FAIL |
+StaleElementReferenceException: Message: The element reference of <span> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+------------------------------------------------------------------------------
+TC4.2: Validate Updates on Profile - Educational Details :: This t... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.3: Validate Updates on Profile - Employment Details :: This te... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.4: Validate Updates on Profile - Project Details :: This test ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.5: Validate Updates on Profile - Skill Details :: This test wi... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC4.6: Validate Updates on Profile - Update Preference Details :: ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC5: Search by Skill and Save job :: This test will verify if user... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC6: Apply Saved Job :: This test will verify if user is able to a... logged in successfully
+| FAIL |
+Element '//span[contains(text(),'Job already applied')]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC8: Apply for Events :: This test will verify if user is able the... logged in successfully
+| FAIL |
+Element '//li[1]/ul[1]/li[1]/a[1]' not visible after 2 minutes.
+------------------------------------------------------------------------------
+TC9: Search and Select Mentor :: This test will verify if user is ... logged in successfully
+| PASS |
+------------------------------------------------------------------------------
+TC 10: Jobseeker Password Reset :: This test will verify if user i... 
+A password reset email has been sent, Check your mail!
+| PASS |
+------------------------------------------------------------------------------
+TC 12: Vaidated Saved Profile - Personal Details :: This test will... logged in successfully
+Navigated Successfully to Saved Profile
+Page Objects Validated Successfully
+| FAIL |
+Element with locator '//h5[contains(text(),'Pune, Maharashtra')]' not found.
+------------------------------------------------------------------------------
+TC 13: Vaidated Saved Profile - Education :: This test will verify... logged in successfully
+Navigated Successfully to Saved Profile
+Navigated to Saved Education Page
+Educational Saved Details Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 14: Vaidated Saved Profile - Employment :: This test will verif... logged in successfully
+Navigated Successfully to Saved Profile
+Moved to Employment Section
+| FAIL |
+Element with locator '//p[contains(text(),'10 k')]' not found.
+------------------------------------------------------------------------------
+TC 15: Vaidated Saved Profile - Projects :: This test will verify ... logged in successfully
+Navigated Successfully to Saved Profile
+Project Details Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 16: Validated Saved Profile - Preferences :: This test will ver... logged in successfully
+Navigated Successfully to Saved Profile
+Preferences Validated Successfully.
+| PASS |
+------------------------------------------------------------------------------
+TC 17: Login (Incorrect email format) :: This test will verify if ... 
+"Invalid input for emailId, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 18: Login (User not registered) :: This test will verify if the... 
+"User not found,Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 20: Login (No email ID) :: This test will verify if the applica... 
+"Please input your emailId!, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 21: Login (No Password) :: This test will verify if the applica... 
+"Please input your Password!, Result as Expected"
+| PASS |
+------------------------------------------------------------------------------
+TC 23: Account Locked (Failure 1) :: Account Locked Attempt 1         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 24: Account Locked (Failure 2) :: Account Locked Attempt 2         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 25: Account Locked (Failure 3) :: Account Locked Attempt 3         
+Incorrect Password
+
+Incorrect password attempt successfull
+| PASS |
+------------------------------------------------------------------------------
+TC 30: Validate Gender Detection (Male) :: This test will validate... logged in successfully
+
+As expected, Male Detected, got the message - Upload failed.Gender & Age validation failed.Please upload a proper photo.
+| PASS |
+------------------------------------------------------------------------------
+TC 31: Validate Gender Detection (Female) :: This test will valida... logged in successfully
+
+As expected, female Detected, got the message - Uploaded successfully.Pass, Female Age Above 18..
+| PASS |
+------------------------------------------------------------------------------
+Stage.03 Jobseeker Stage :: This test suite will contain the test ... | FAIL |
+28 tests, 23 passed, 5 failed
+==============================================================================
+Stage                                                                 | FAIL |
+56 tests, 50 passed, 6 failed
+==============================================================================
+Output:  /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/output-20210731-150501.xml
+Log:     /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/log-20210731-150501.html
+Report:  /var/opt/Shenzyn-apps/Shenzyn-Test-Aut/development/shenzyn-qa-automation/Results/report-20210731-150501.html

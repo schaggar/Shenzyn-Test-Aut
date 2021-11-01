@@ -1,0 +1,58 @@
+==============================================================================
+Js Email Test                                                                 
+==============================================================================
+TC 10: Jobseeker Password Reset :: This test will verify if user i... | PASS |
+------------------------------------------------------------------------------
+TC 11: Password Reset Email Verification :: This test will verify ... | FAIL |
+No keyword with name 'Open Mailbox' found.
+------------------------------------------------------------------------------
+Js Email Test                                                         | FAIL |
+2 critical tests, 1 passed, 1 failed
+2 tests total, 1 passed, 1 failed
+==============================================================================
+Output:  C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn\results\output-20210224-114036.xml
+Log:     C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn\results\log-20210224-114036.html
+Report:  C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn\results\report-20210224-114036.html
+==============================================================================
+Js Profile Update :: This test suite will contain the test cases related to...
+==============================================================================
+TC4: Validate Updates on Profile :: This test will verify if the u... | FAIL |
+Element with locator '(//span[@class='ant-form-item-children']/button)[2]' not found.
+------------------------------------------------------------------------------
+Js Profile Update :: This test suite will contain the test cases r... | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn\results\output-20210224-114212.xml
+Log:     C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn\results\log-20210224-114212.html
+Report:  C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn\results\report-20210224-114212.html
+==============================================================================
+Jobseeker Automation Stage :: This test suite will contain the test cases r...
+==============================================================================
+TC1: Validate Landing Page :: This test will verify if the objects... | PASS |
+------------------------------------------------------------------------------
+TC2: Validate Login Functionality :: This test will verify if the ... | PASS |
+------------------------------------------------------------------------------
+TC3: Validate JobSeekerPage :: This test will verify if all the ob... | PASS |
+------------------------------------------------------------------------------
+TC5: Search by Skill and Save job :: This test will verify if user... | PASS |
+------------------------------------------------------------------------------
+TC6: Apply Saved Job :: This test will verify if user is able to a... | PASS |
+------------------------------------------------------------------------------
+TC7: Recommeded Job Application :: This test will verify if user i... | PASS |
+------------------------------------------------------------------------------
+TC8: Apply for Events :: This test will verify if user is able the... | PASS |
+------------------------------------------------------------------------------
+TC9: Search and Select Mentor :: This test will verify if user is ... | PASS |
+------------------------------------------------------------------------------
+TC 10: Jobseeker Password Reset :: This test will verify if user i... | PASS |
+------------------------------------------------------------------------------
+Jobseeker Automation Stage :: This test suite will contain the tes... | PASS |
+9 critical tests, 9 passed, 0 failed
+9 tests total, 9 passed, 0 failed
+==============================================================================
+Output:  C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn\results\output-20210224-114536.xml
+Log:     C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn\results\log-20210224-114536.html
+Report:  C:\gitclonenew\Shenzyn-Test-Aut\development\shenzyn\results\report-20210224-114536.html
+
+Waiting for 50 seconds, press CTRL+C to quit ...49484746454443424140393837363534333231302928272625242322212019181716151413121110 9 8 7 6 5 4 3 2 1 0
